@@ -105,7 +105,8 @@ h2 {
   /*and (-webkit-min-device-pixel-ratio: 3)*/ {
     .grid {
       grid-template-columns: 1fr;
-      grid-row-gap: 40px;
+      grid-row-gap: 50px;
+      padding-bottom:200px;
   }
 }
 
@@ -113,8 +114,8 @@ h2 {
   and (min-device-width: 320px)
   and (max-device-width: 750px){
     h2 {
-      font-size: 14px;
-      line-height: 30px;
+      font-size: 30px;
+      line-height: 40px;
       margin: 40px 0px 0px 0px;
       text-align: justify;
   }
@@ -126,10 +127,10 @@ h2 {
     h1 {
       font-size: 80px;
       line-height: 100px;
+      margin-top: 50px;
       margin-bottom: 4%;
   }
 }
-
 
 .title {
   grid-row: 1;
